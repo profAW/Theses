@@ -1,4 +1,4 @@
-# Colection of support material for theses
+# Collection of support material for theses
 
 ## Description
 
