@@ -1,0 +1,79 @@
+%%
+% Please see https://bitbucket.org/rivanvx/beamer/wiki/Home for obtaining beamer.
+%%
+\documentclass{beamer}
+\usetheme{Copenhagen}
+
+\usepackage{amsmath}
+
+
+\author{Prof. Dr.-Ing. A. Wenzel} 
+\title{Math background of benefit analysis} 
+\date{} 
+
+\begin{document}
+
+\titlepage
+
+\begin{frame}{Benifit Analysis without sub items}{\subsubsecname}
+
+The total benefit $tb$ of solution x ($tb_x$) is
+
+\bigskip
+
+\[ tb_x = \sum_{i=1}^{n} wb_i = \sum_{i=1}^{n} b_i \cdot w_i \]
+
+\bigskip
+
+$ tb_x $ \text{  - total benefit of solution x} 
+
+$ wb_i $ \text{ - weighted benefit of criteria i}
+
+$  b_i $ \text{  ~~   - benefit of criteria i}
+
+$ w_i $ \text{~~~- weight of criteria i}
+
+$ n $ \text{~~ ~- total number of criteria}
+ 
+\end{frame}
+
+
+
+\begin{frame}[allowframebreaks]{Benifit Analysis with sub items}{\subsubsecname}
+
+The total benefit $tb$ of solution x ($tb_x$) is
+
+\bigskip
+
+\[ tb_x = \sum_{i=1}^{n} wb_i = \sum_{i=1}^{n} b_i \cdot w_i \]
+
+\bigskip
+$ tb_x $ \text{  - total benefit of solution x} 
+
+$ wb_i $ \text{ - weighted benefit of criteria i}
+
+$  b_i $ \text{  ~~   - benefit of criteria i}
+
+$ w_i $ \text{~~~- weight of criteria i}
+
+$ n $ \text{~~ ~- total number of criteria}
+ 
+
+\framebreak 
+
+The benefit $b$ of a criteria i ($b_i$ ) is
+
+\bigskip
+
+\[ b_i = \sum_{j=1}^{m}  sb_j \cdot sw_j \]
+
+$  sb_i $ \text{- benefit of sub criteria j}
+
+$ sw_i $ \text{- weight of sub criteria j}
+
+$ m $ \text{  - total number of sub criteria}
+
+
+\end{frame}
+
+\end{document}
